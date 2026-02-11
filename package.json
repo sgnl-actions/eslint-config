@@ -1,0 +1,16 @@
+{
+  "name": "@sgnl-actions/eslint-config",
+  "description": "Shared ESLint flat config for SGNL actions",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@eslint/js": "^10.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^10.0.0"
+  }
+}

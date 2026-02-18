@@ -36,11 +36,15 @@ export default [
     languageOptions: {
       globals: {
         describe: 'readonly',
+        it: 'readonly',
         test: 'readonly',
         expect: 'readonly',
+        beforeAll: 'readonly',
         beforeEach: 'readonly',
+        afterAll: 'readonly',
         afterEach: 'readonly',
         jest: 'readonly',
+        fail: 'readonly',
         global: 'writable'
       }
     }
